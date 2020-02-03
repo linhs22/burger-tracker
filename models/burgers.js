@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    var Burgers = sequelize.define("Burger", {
+    var Burger = sequelize.define("Burger", {
         // Giving the Bid model a bid price of type FLOAT
         name: {
             type: DataTypes.STRING,
@@ -13,5 +13,5 @@ module.exports = function(sequelize, DataTypes) {
     })
 
 
-    return Burgers;
+    return Burger;
 };

@@ -9,7 +9,7 @@
       <div class="col-6 burger-list">
         <h5 class="card-title">Burgers ready to eat!</h5>
         <div>
-          {{#each burgers}}
+          {{#each dbBurger}}
           {{#unless eaten}}
           {{> burgers/burger-block eaten=true}}
           {{/unless}}
@@ -19,7 +19,7 @@
       <div class="col-6 burger-list">
         <h5 class="card-title">Devoured Burgers!</h5>
         <ul>
-          {{#each burgers}}
+          {{#each dbBurger}}
           {{#if eaten}}
           {{> burgers/burger-block eaten=false}}
           {{/if}}
