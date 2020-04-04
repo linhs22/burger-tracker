@@ -1,4 +1,4 @@
-# Sequelize Burger Logger
+# Sequelize Burger Tracker
 
 ## Description
 
